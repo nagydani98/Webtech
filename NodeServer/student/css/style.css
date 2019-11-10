@@ -1,0 +1,35 @@
+body {
+    background-color: chartreuse
+}
+a:link{
+    color: blue
+}
+a:visited{
+    color: cyan
+}
+#banner{
+    height: 100px;
+    background: brown;
+    color: blue;
+    font-style: italic;
+    font-size: 30px;
+}
+#menuBar{
+    font-size: 17px;
+    float: right;
+    background: indigo;
+    margin-top: 10px;
+}
+#menuBar .menuButton{
+    width: 50px;
+    background: black;
+    border: 15px solid black;
+    border-radius: 30px;
+    margin: 15px;
+    text-align: center;
+    display: inline-block;
+}
+#menuBar .menuButton:hover{
+    color: burlywood;
+    background: burlywood;
+}

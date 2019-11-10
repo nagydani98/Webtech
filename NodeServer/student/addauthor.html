@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html leng="en">
+<head>
+<meta charset="UTF-8">
+<title>AddBook</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="header">
+    <div id="banner">
+        Library
+        <div id="menuBar">
+            <span class="menuButton"><a href="index.html">Home</a></span>
+            <span class="menuButton"><a href="addbook.html">AddBook</a></span>
+            <span class="menuButton"><a href="addauthor.html">Authors</a></span>
+            <span class="menuButton"><a href="contacts.html">Contacts</a></span>
+        </div>
+    </div>
+</div>
+
+<form action="addAuthor" method="POST">
+    <table>
+        <tr>
+            <td>
+                Name
+            </td>
+            <td>
+                <input type="text" name="name" required="required" autofocus value="John Doe">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Nationality
+            </td>
+            <td>
+                <select name="nationality" required="required">
+                    <option value="Hungarian">Hungarian</option>
+                    <option value="Other">Other</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+                <td>
+                    Birth Date
+                </td>
+                <td>
+                    <input type="date" name="birthDate" required="required" value="2000-01-01">
+                </td>
+        </tr>  
+        <tr>
+                <td>
+                        <input type="submit" name="insert" value="Add Book">
+                </td>
+        </tr>  
+    </table>
+</form>
+</body>
+</table>
+</html>
