@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cars</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/cars.js" type="text/javascript"/>
+</head>
+<div id="carContent">
+    <form id="addCarForm">
+        <table>
+            <tr>
+                <td>
+                    <input name="name" type="text" required="required" autofocus value="Beetle">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="consumption" type="text" autofocus value="7l/100km">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="color" type="text" autofocus value="red">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="manSelect" name="manufacturer" required="required">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="available" type="number" min="0" autofocus value="1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="year" type="number" min="1900" autofocus value="1987">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="horsepower" type="number" min="0" autofocus value="200">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="insert" value="Add Car">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <table id="carTable" class="displayTable">
+
+    </table>
+</div>
+</html>

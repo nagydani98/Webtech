@@ -1,27 +1,32 @@
 body {
-    background-color: chartreuse
+    background-color: #ffffcc
 }
-a:link{
-    color: blue
+
+#content{
+    border: black solid;
+    border-radius: 2px;
 }
-a:visited{
-    color: cyan
+a:link, a:visited{
+    color: blue;
+    text-decoration: none;
 }
+
 #banner{
     height: 100px;
-    background: brown;
-    color: blue;
+    background: black;
     font-style: italic;
     font-size: 30px;
 }
 #menuBar{
     font-size: 17px;
-    float: right;
+    float: left;
     background: indigo;
     margin-top: 10px;
+    height: 80px;
+    width: 90%;
 }
 #menuBar .menuButton{
-    width: 50px;
+    width: 100px;
     background: black;
     border: 15px solid black;
     border-radius: 30px;
@@ -32,4 +37,24 @@ a:visited{
 #menuBar .menuButton:hover{
     color: burlywood;
     background: burlywood;
+}
+
+form{
+    background: white;
+    border: white inset;
+    margin: 10px;
+    width: auto;
+}
+
+.displayTable{
+    margin: 10px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.displayTable td{
+    background: white;
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
 }
