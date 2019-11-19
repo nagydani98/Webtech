@@ -17,6 +17,10 @@ a:link, a:visited{
     font-style: italic;
     font-size: 30px;
 }
+#banner img{
+    height: 100px;
+    float: right;
+}
 #menuBar{
     font-size: 17px;
     float: left;
